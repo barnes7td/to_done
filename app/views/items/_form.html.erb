@@ -1,0 +1,11 @@
+<div class="">
+  <%= form_for @new_item do |f| %>
+    
+    <span>
+      <%= f.label "New Item" %>
+      <%= f.text_field :name, autofocus: true %>
+    </span>
+    
+    <%= f.submit "Add" %>
+  <% end %>
+</div>

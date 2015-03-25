@@ -1,0 +1,13 @@
+<h1>This is Your List!</h1>
+<div class="sub-head">
+  <%= @items.size %> Items
+</div>
+
+<div class="list">
+  <div class="list-form">
+    <%= render 'items/form'%>
+  </div>
+  <div class="list-items">
+    <%= render @items %>
+  </div>
+</div>
